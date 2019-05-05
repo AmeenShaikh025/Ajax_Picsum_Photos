@@ -4,7 +4,7 @@ $(document).ready(function() {
 	//alert('Hi');
 	$.ajax({
 		url: 'https://picsum.photos/v2/list?page=2&limit=100',
-		type: 'GET',
+		type: 'GET',//to get the data from specified resource
 	  	dataType: 'json',
 		success: function(data) {
 			console.log(data);
